@@ -32,7 +32,7 @@ public class MacrosPanel extends JPanel {
         this.add(carbsInputLabel);
 
         totalCaloriesLabel = new JLabel("Total Calories: 0");
-        totalCaloriesLabel.setLocation(150, 130);
+        totalCaloriesLabel.setLocation(190, 130);
         totalCaloriesLabel.setSize(200, 30);
         this.add(totalCaloriesLabel);
 
@@ -40,7 +40,7 @@ public class MacrosPanel extends JPanel {
         button.addActionListener(listener);
 
         buttonPanel = new JPanel();
-        buttonPanel.setLocation(155, 165);
+        buttonPanel.setLocation(195, 160);
         buttonPanel.setSize(80, 35);
         buttonPanel.add(button);
         this.add(buttonPanel);
