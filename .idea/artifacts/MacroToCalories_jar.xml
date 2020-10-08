@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MacroToCalories:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MacroToCalories_jar</output-path>
+    <root id="archive" name="MacroToCalories.jar">
+      <element id="module-output" name="MacroToCalories" />
+    </root>
+  </artifact>
+</component>
