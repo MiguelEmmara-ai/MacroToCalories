@@ -6,10 +6,15 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class MacrosPanel extends JPanel {
-    private JLabel proteinsInputLabel, fatsInputLabel, carbsInputLabel, totalCaloriesLabel;
-    private JTextField proteins, fats, carbs;
-    private JPanel buttonPanel;
-    private JButton button;
+    private final JLabel proteinsInputLabel;
+    private final JLabel fatsInputLabel;
+    private final JLabel carbsInputLabel;
+    private final JLabel totalCaloriesLabel;
+    private final JTextField proteins;
+    private final JTextField fats;
+    private final JTextField carbs;
+    private final JPanel buttonPanel;
+    private final JButton button;
 
     public MacrosPanel(String title) throws HeadlessException {
         ButtonListener listener = new ButtonListener();
@@ -47,17 +52,17 @@ public class MacrosPanel extends JPanel {
 
         proteins = new JTextField();
         proteins.setLocation(100, 25);
-        proteins.setSize(300,30);
+        proteins.setSize(300, 30);
         this.add(proteins);
 
         fats = new JTextField();
         fats.setLocation(100, 60);
-        fats.setSize(300,30);
+        fats.setSize(300, 30);
         this.add(fats);
 
         carbs = new JTextField();
         carbs.setLocation(100, 95);
-        carbs.setSize(300,30);
+        carbs.setSize(300, 30);
         this.add(carbs);
 
         setSize(413, 260);
